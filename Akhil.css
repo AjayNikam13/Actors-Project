@@ -1,0 +1,134 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(Tollywood/Akhilimages/A4.jpg);
+    background-attachment: fixed;
+}
+
+.audio
+{
+   padding-left: 80px; 
+  /* position: absolute;
+  bottom: -10px;*/
+  position: absolute;
+  bottom: 250px;
+  width: 200px; 
+
+  padding-top: 300px;
+}
+
+.a
+{
+  color: white;
+  position: absolute;
+  bottom: 250px;
+  pc:\Users\HP\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\electron-sandbox\workbench\workbench.htmladding-top: 300px;
+  font-size: xx-large;
+}
+
+.b
+{
+  color: white;
+  position: absolute;
+  bottom: 250px;
+  left: 60px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+
+.p
+{
+  color: white;
+   /* padding-left: 40px;  */
+  position: absolute;
+  bottom: 110px;
+  width: 300px; 
+  font-size: large;"
+
+  /* padding-top: 300px; */
+}
+
+.R
+{
+  color: white;
+   /* padding-left: 40px;  */
+  position: absolute;
+  bottom: 25px;
+  left:180px;
+  font-size: large;"
+
+  /* padding-top: 300px; */
+}
+
+.slider-width
+{
+  color: white;
+   /* padding-left: 40px;  */
+  position: absolute;
+  bottom: 160px;
+  width: 285px; 
+  font-size: large;"
+
+  /* padding-top: 300px; */
+}
+
+img
+{
+  color: white;
+  position: absolute;
+  bottom: -55px;
+  width: 287px;
+  height: 490px;;
+}
+
+.v
+{
+  padding-bottom: 400px;
+  height: 200px;
+}
+
+.B
+{
+  color: white;
+  position: absolute;
+  bottom: 190px;
+  left: 20px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+.B1
+{
+  color: white;
+  position: absolute;
+  bottom: 190px;
+  left: 119px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+.B2
+{
+  color: white;
+  position: absolute;
+  bottom: 190px;
+  left: 220px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+.B0
+{
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  left: 260px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+.Shadow
+{
+  text-shadow: 2px 2px red;
+}

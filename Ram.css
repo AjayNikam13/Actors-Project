@@ -1,0 +1,19 @@
+body{
+    background-image: url(Tollywood/RamImages/R1.jpg);
+    background-attachment: fixed;
+  
+}
+.C
+{
+  color:blue;
+  background-color: white;
+}
+.D
+{
+    color: red;
+}
+
+.Shadow
+{
+  text-shadow: 2.5px 2.5px black;
+}

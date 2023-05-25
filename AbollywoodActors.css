@@ -1,0 +1,36 @@
+body{
+    background-image: url(Bollywood/history-of-indian-cinema1BolyActrpge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+b
+{
+  color: white;
+}
+li
+{
+  color: red;
+  text-shadow: 2px 2px black;
+}
+/* a
+{
+  text-shadow: 2px 2px yellow;
+} */
+/* .circle
+{
+    border-style: double;
+    width: 100px;
+    background-color: blueviolet;
+    color: black;
+    height: 300px;
+    width: 300px;
+    animation-name: Animation1;
+    animation-duration: 5ms;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-delay: 5ms;
+
+
+
+} */

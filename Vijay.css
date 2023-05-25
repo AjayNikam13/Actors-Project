@@ -1,0 +1,29 @@
+body{
+    background-image: url(Tollywood/VijayImages/V4.jpg);
+    background-repeat: var(300px);
+    background-attachment: fixed;
+}
+.C
+{
+  color: white;
+}
+.D
+{
+  color: blue;
+}
+.S
+          {
+            color: red;
+            font-size: xx-large
+          }
+
+          .A
+          {
+            color:blue;
+            background-color: white;
+          }
+
+  .Shadow
+  {
+    text-shadow: 2px 2px wheat;
+  }

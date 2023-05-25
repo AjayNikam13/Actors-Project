@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function email()
+        {
+            var a=""+document.form.emaill.value;
+            a=a.toLowerCase();
+
+            var b=a.length-10
+            var c=a.substring(b);
+            var c1=0
+
+            if(a.charAt(0)>='a' && a.charAt(0)<='z')
+            {
+                c1++
+            }
+            if(c1==1 && c=="@gmail.com")
+            {
+
+                return true;
+            }
+            else
+            {
+                return false;
+            }  
+        }
+
+        function pass()
+        {
+            var a=""+document.form.pass1.value;
+            // document.write(a)
+
+            var c1=0
+            var c2=0
+            var format = /^[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]*$/;
+
+
+            if(a.charAt(0)>='A' && a.charAt(0)<='Z')
+            {
+                c1++;
+            }
+
+            for(var i=0;i<a.length;i++)
+            {
+                
+                if(a.charAt(i).match(format) && (a.charAt(i+1)>=0 || a.charAt(i+1)<=9))
+                {
+                    c2++;
+                }
+            }
+            if(c1==1 && c2==1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+
+            }
+        }
+
+        function verify()
+        {
+            var e=email()
+            var p= pass()
+
+            if(e==p)
+            {
+                // document.write("Login Succesfully")
+                window.open("http://127.0.0.1:5500/Actors_Project/A1MovieType.html")
+            }
+            else
+            {
+                document.write("😉Incorrect Email Id And Password")
+
+            }
+
+        }
+    </script>
+
+<style>
+     body
+        {
+            background-image: url(./Bollywood/IndianCinema1.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        a
+        {
+            color: yellow;
+            background-color: black;
+        }
+        #F
+        {
+            background-color:gainsboro;
+        }
+        .table
+    {
+        background-color: antiquewhite;
+        border-style: double;
+        border-radius: 10px;
+    }
+
+    .Font
+    {
+        color: black;
+        font-size: x-large;
+    }
+
+    sup
+    {
+        color: red;
+    }
+</style>
+
+</head>
+<body>
+    <table class="table" align="center" height="150" width="400">
+        <caption><font color="black"><h1>Login Page</h1></font></caption>
+        <tr>
+            <td>
+          <br>
+    
+    <form name="form">
+        <table >
+            <tr>
+      <td><label for="" class="Font"  >Enter Email ID : <sup>*</sup> </label></td>
+      <td><input type="email" name="emaill" id="F" required></td><br>
+            </tr>
+            <tr> <td><table height="30"></table></td></tr>
+            <tr>
+      <td> <label for="" class="Font">Enter Password : <sup>*</sup> </label></td>
+        <td> <input type="password" name="pass1" id="F" required></td><br>
+        </tr>
+
+    </table>
+    <br>
+<table align="center">
+<tr>
+    <td>
+        <input type="submit" value="Login" onclick="return verify()">
+    </td>
+</tr>
+</table>
+    </form>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

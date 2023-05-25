@@ -1,0 +1,17 @@
+body
+{
+    background-image: url(./Bollywood/Images.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1
+{
+    color: red;
+}
+
+table
+{
+    color: white;
+    background-image: url(./Bollywood/Images1.jpg);
+}

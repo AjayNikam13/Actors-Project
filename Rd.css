@@ -1,0 +1,135 @@
+body{
+    background-image: url(Bollywood/RdImages/RiteshImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.A
+{
+  color:red;
+}
+.C
+{
+  color: brown;
+}
+
+
+.audio
+{
+   padding-left: 80px; 
+  /* position: absolute;
+  bottom: -10px;*/
+  position: absolute;
+  bottom: 250px;
+  width: 200px; 
+
+  padding-top: 300px;
+}
+
+.a
+{
+  color: white;
+  position: absolute;
+  bottom: 250px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+.b
+{
+  color: white;
+  position: absolute;
+  bottom: 250px;
+  left: 60px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+
+.p
+{
+  color: white;
+   /* padding-left: 40px;  */
+  position: absolute;
+  bottom: 120px;
+  width: 300px; 
+  left: 80px;
+  font-size: large;"
+
+  /* padding-top: 300px; */
+}
+
+.R
+{
+  color: white;
+   /* padding-left: 40px;  */
+  position: absolute;
+  bottom: 25px;
+  left:180px;
+  font-size: large;"
+
+  /* padding-top: 300px; */
+}
+
+.slider-width
+{
+  color: white;
+   /* padding-left: 40px;  */
+  position: absolute;
+  bottom: 170px;
+  width: 285px; 
+  font-size: large;"
+
+  /* padding-top: 300px; */
+}
+
+img
+{
+  color: white;
+  position: absolute;
+  bottom: -55px;
+  width: 287px;
+  height: 490px;;
+}
+
+.v
+{
+  padding-bottom: 400px;
+  height: 200px;
+}
+
+.B
+{
+  color: white;
+  position: absolute;
+  bottom: 200px;
+  left: 20px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+.B1
+{
+  color: white;
+  position: absolute;
+  bottom: 200px;
+  left: 100px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+.B2
+{
+  color: white;
+  position: absolute;
+  bottom: 200px;
+  left: 200px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+.Shadow
+{
+  text-shadow: 2px 2px darkred;
+}
+

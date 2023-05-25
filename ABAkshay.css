@@ -1,0 +1,189 @@
+body{
+    background-image: url(Bollywood/AkshayImages/AkshayImg.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* .Info
+{
+  background-image: url(Bollywood/Bolly.jpg);
+} */
+
+
+b
+{
+  color: black;
+}
+li
+{
+  color: black;
+}
+
+.audio
+{
+   padding-left: 80px; 
+  /* position: absolute;
+  bottom: -10px;*/
+  position: absolute;
+  bottom: 140px;
+  width: 200px; 
+
+  padding-top: 300px;
+}
+
+.a
+{
+  color: white;
+  position: absolute;
+  bottom: 140px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+.b
+{
+  color: white;
+  position: absolute;
+  bottom: 140px;
+  left: 100px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+
+.p
+{
+  color: white;
+   /* padding-left: 40px;  */
+  position: absolute;
+  bottom: 5px;
+  width: 300px; 
+  font-size: large;"
+
+  /* padding-top: 300px; */
+}
+
+.R
+{
+  color: white;
+   /* padding-left: 40px;  */
+  position: absolute;
+  bottom: 25px;
+  left:180px;
+  font-size: large;"
+
+  /* padding-top: 300px; */
+}
+
+.slider-width
+{
+  color: white;
+   /* padding-left: 40px;  */
+  position: absolute;
+  bottom: 60px;
+  width: 285px; 
+  font-size: large;"
+
+  /* padding-top: 300px; */
+}
+
+img
+{
+  color: white;
+  position: absolute;
+  bottom: -55px;
+  width: 287px;
+  height: 490px;;
+}
+
+.v
+{
+  padding-bottom: 300px;
+  height: 200px;
+}
+
+.B
+{
+  color: white;
+  position: absolute;
+  bottom: 100px;
+  left: 60px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+.B1
+{
+  color: white;
+  position: absolute;
+  bottom: 100px;
+  left: 160px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+.B2
+{
+  color: white;
+  position: absolute;
+  bottom: 100px;
+  left: 260px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+.B0
+{
+  color: white;
+  position: absolute;
+  bottom: 40px;
+  left: 260px;
+  padding-top: 300px;
+  font-size: xx-large;
+}
+
+.Shadow
+{
+  text-shadow: 2.5px 2.5px black;
+}
+
+
+/* .buttons {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+        }
+        
+        .playpause-track,
+        .prev-track,
+        .next-track {
+          padding: 25px;
+          opacity: 0.8; */
+        
+          /* Smoothly transition the opacity */
+          /* transition: opacity .2s;
+        }
+        
+        .playpause-track:hover,
+        .prev-track:hover,
+        .next-track:hover {
+          opacity: 1.0;
+        }
+        
+        .slider_container {
+          width: 75%;
+          max-width: 400px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+         */
+
+
+
+/* .div
+{
+  border:orange; border-width:5px; border-style:solid;
+  width: 300px;
+  height: 500px;
+} */
